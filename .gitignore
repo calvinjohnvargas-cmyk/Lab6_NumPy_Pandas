@@ -1,0 +1,19 @@
+# 1. Ignore absolutely everything by default
+*
+
+# 2. But allow Git to look inside folders
+!*/
+
+# 3. Completely block the virtual environment folder
+.venv/
+
+# 4. Allow all Jupyter Notebook files
+!*.ipynb
+
+# 5. Allow all CSV data files
+!*.csv
+
+# 6. Allow this .gitignore file itself
+!.gitignore
+
+survey_results_public.csv
